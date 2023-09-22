@@ -458,8 +458,8 @@ a:focus {
   color: #ffffff;
   padding: 15px;
   margin-top: 10px;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -483,9 +483,10 @@ a:focus {
 }
 
 .chocolate_section .box:hover {
-  border-color: transparent;
+  transform: scale(1.02);
+  /* border-color: transparent;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15); */
 }
 
 .chocolate_section .box:hover .detail-box {
