@@ -79,6 +79,10 @@
 }
 
 @media (max-width: 767px) {
+  #google-map {
+    padding: 15px;
+  }
+
   .slider_section {
     padding: 75px 0 225px 0;
   }
