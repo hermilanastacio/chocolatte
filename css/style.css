@@ -262,6 +262,7 @@ a:focus {
   z-index: 2;
   background-size: cover;
   background-position: top;
+  background-color: #ffdba2;
   color: #ffffff;
 }
 
@@ -404,6 +405,11 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+}
+
+.chocolate_section  {
+  background-color: #ffdba2;
+  padding: 35px 0 10px 0;
 }
 
 .chocolate_section .heading_container {
@@ -641,6 +647,10 @@ a:focus {
 
 .offer_section .btn-box a img {
   width: 65px;
+}
+
+.client_section {
+  background-color: #ffdba2;
 }
 
 .client_section .heading_container {
